@@ -7,6 +7,3 @@ Feature: Filter testing
     When click sort by
     When click high to low
     Then Verify order
-
-
-
