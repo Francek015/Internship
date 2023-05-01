@@ -1,5 +1,5 @@
-from pages.main_page import MainPage
-# from pages.header import Header
+from pages.shop_page import ShopPage
+from pages.footer_page import Footer
 from pages.search_results import SearchResultsPage
 # from pages.signin_page import Signin
 # from pages.cart_items_page import CartItems
@@ -10,8 +10,8 @@ class Application:
 
     def __init__(self, driver):
         self.driver = driver
-        self.main_page = MainPage(self.driver)
-#         self.header = Header(self.driver)
+        self.shop_page = ShopPage(self.driver)
+        self.footer_page = Footer(self.driver)
         self.search_results = SearchResultsPage(self.driver)
 #         self.signin_page = Signin(self.driver)
 #         self.cart_items_page = CartItems(self.driver)

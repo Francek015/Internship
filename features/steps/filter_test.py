@@ -6,7 +6,7 @@ from time import sleep
 
 @given('Open cureskin results for cure')
 def open_cureskin(context):
-    context.app.main_page.open_search_result()
+    context.app.shop_page.open_search_result()
 
 
 @when('verify {search_word}')
