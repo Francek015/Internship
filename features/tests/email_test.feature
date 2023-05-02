@@ -6,4 +6,4 @@ Feature: Email address test
     When close popup
     When enter invalid email hello
     When enter valid email bob@gmail.com
-    Then verify that Thanks for subscribing appears
+    Then verify that To continue, let us know you're not a robot.

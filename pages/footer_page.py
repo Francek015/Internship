@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 class Footer(Page):
     EMAIL_INPUT = (By.ID, 'ContactFooter-email')
     SUBMIT_EMAIL = (By.XPATH, "//button[@aria-label= 'Subscribe']")
-    EMAIL_SUCCESS = (By.ID, 'ContactFooter-success')
+    NOT_ROBOT = (By.XPATH, '//div/p[@class]')
 
 
     def input_email_text(self, text):
@@ -21,4 +21,4 @@ class Footer(Page):
         self.driver.find_element(*self.SUBMIT_EMAIL).send_keys(Keys.DELETE)
 
     def verify_email_confirmation(self, expected_text):
-        self.verify_text(expected_text, *self.EMAIL_SUCCESS)
+        self.verify_text(expected_text, *self.NOT_ROBOT)
