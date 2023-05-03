@@ -31,7 +31,7 @@ def browser_init(context):
     desired_cap = {
         'browser': 'Chrome',
         'os_version': '11',
-        'os': 'Windows',
+        'os': 'MAc',
 
     }
 
