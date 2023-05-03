@@ -27,12 +27,23 @@ def browser_init(context):
     # )
     # context.app = Application(driver=context.driver)
     #
+    # #
+    # desired_cap = {
+    #     'browser': 'Chrome',
+    #     'os_version': '10',
+    #     'os': 'Windows',
     #
-    desired_cap = {
-        'browser': 'Chrome',
-        'os_version': '11',
-        'os': 'MAc',
+    # }
 
+    desired_cap = {
+        'bstack:options': {
+            "os": "OS X",
+            "osVersion": "Ventura",
+            "browserVersion": "16.0",
+            "local": "false",
+            "seleniumVersion": "3.14.0",
+        },
+        "browserName": "Safari",
     }
 
     bs_user = 'stjepanrogina_JNSTs4'
