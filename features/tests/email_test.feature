@@ -5,5 +5,5 @@ Feature: Email address test
     Given Open cureskin shop page
     When close popup
     When enter invalid email hello
-    When enter valid email bob@gmail.com
+    When enter valid email beb@gmail.com
     Then verify that To continue, let us know you're not a robot.

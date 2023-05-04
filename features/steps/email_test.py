@@ -23,7 +23,7 @@ def input_valid_email(context, email):
     context.app.footer_page.clear_email_field()
     context.app.footer_page.input_email_text(email)
     context.app.footer_page.submit_email()
-    sleep(3)
+    sleep(5)
 
 
 @then('verify that {text}')
