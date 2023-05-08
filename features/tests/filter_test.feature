@@ -5,5 +5,5 @@ Feature: Filter testing
     Given Open cureskin results for cure
     When verify 18 results found for “cure”
     When click sort by
-    When click high to low
+    When Select high to low
     Then Verify order

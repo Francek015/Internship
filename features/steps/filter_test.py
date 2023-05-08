@@ -18,7 +18,7 @@ def click_sort(context):
     context.app.search_results.click_sort_by()
     sleep(3)
 
-@when('click high to low')
+@when('Select high to low')
 def click_high_to_low(context):
     context.app.search_results.click_high_to_low()
 
