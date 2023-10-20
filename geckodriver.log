@@ -162,11 +162,12 @@ WARNING: A blocker encountered an error while we were waiting.
           JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ofile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 325))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+hutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
 @resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
 @resource://gre/modules/osfile.jsm:12:30
 @resource://gre/modules/TelemetryStorage.sys.mjs:10:28
@@ -266,11 +267,11 @@ observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
 
 console.error: "TelemetryScheduler.shutdown - Already shut downJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 325))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+cShutdown.sys.mjs:727:15
 addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
 addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
 setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
